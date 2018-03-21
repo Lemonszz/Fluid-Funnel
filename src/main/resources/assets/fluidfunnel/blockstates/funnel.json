@@ -1,0 +1,37 @@
+{
+  "forge_marker": 1,
+  "variants":
+  {
+    "inventory":
+    {
+      "model": "hopper_down",
+      "transform": "forge:default-block"
+    },
+    "facing":
+    {
+      "north":
+      {
+        "model": "hopper_side"
+      },
+      "south":
+      {
+        "model": "hopper_side",
+        "y": 180
+      },
+      "west":
+      {
+        "model": "hopper_side",
+        "y": 270
+      },
+      "east":
+      {
+        "model": "hopper_side",
+        "y": 90
+      },
+      "down":
+      {
+        "model": "hopper_down"
+      }
+    }
+  }
+}

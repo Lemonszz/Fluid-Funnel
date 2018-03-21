@@ -1,0 +1,16 @@
+[
+{
+  "modid": "fluidfunnel",
+  "name": "Fluid Funnel",
+  "description": "Fluid Funnel",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Lemons"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

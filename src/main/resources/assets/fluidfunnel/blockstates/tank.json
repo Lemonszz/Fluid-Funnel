@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "fluidfunnel:tank"
+  },
+  "variants":
+  {
+    "inventory":
+    {
+      "model": "fluidfunnel:tank",
+      "transform": "forge:default-block"
+    },
+    "normal": [{}]
+  }
+}
