@@ -35,9 +35,13 @@ public class ModConfig
 		public static boolean placeInWorld = true;
 		public static boolean takeFromWorld = true;
 		public static boolean fillCauldron = true;
+		public static boolean fillContainers = true;
 
 		@Config.RequiresWorldRestart
 		@Config.RangeInt(min = 1)
 		public static int tankCapacity = 10000;
+
+		@Config.RangeInt(min = 1)
+		public static int glassBottleSize = 100;
 	}
 }

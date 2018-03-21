@@ -12,6 +12,7 @@ public class BehaviorInit
 		TileEntityFunnel.outputBehaviour.add(new FluidPushContainer());
 		TileEntityFunnel.outputBehaviour.add(new FluidPushWorld());
 		TileEntityFunnel.outputBehaviour.add(new FluidPushCauldron());
+		TileEntityFunnel.outputBehaviour.add(new FluidPushItemHandler());
 
 		TileEntityFunnel.inputBehaviour.add(new FluidPullContainer());
 		TileEntityFunnel.inputBehaviour.add(new FluidPullWorld());
