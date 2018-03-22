@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "fluidfunnel:tap",
+    "count": 1
+  },
+  "pattern": [
+    "II",
+    "B ",
+    "  "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore" : "ingotIron"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    }
+  }
+}
