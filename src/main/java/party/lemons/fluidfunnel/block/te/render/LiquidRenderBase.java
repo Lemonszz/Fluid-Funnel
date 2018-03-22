@@ -12,6 +12,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraftforge.fluids.FluidStack;
 import org.lwjgl.opengl.GL11;
 import party.lemons.fluidfunnel.block.te.TileEntityFluidHandlerBase;
+import party.lemons.fluidfunnel.config.ModConfig;
 import party.lemons.fluidfunnel.util.RenderUtil;
 
 /**
@@ -22,7 +23,7 @@ public abstract class LiquidRenderBase<T extends TileEntityFluidHandlerBase> ext
 	@Override
 	public void render(TileEntityFluidHandlerBase te, double x, double y, double z, float partialTicks, int destroyStage, float alpha)
 	{
-		if(te.getTank().getFluid() == null)
+		if(!ModConfig.GameplayConfig.enableFluidRender || te.getTank().getFluid() == null)
 			return;
 
 		FluidStack fluid = te.getTank().getFluid();

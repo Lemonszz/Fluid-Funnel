@@ -77,7 +77,6 @@ public class FluidPushItemHandler implements IFluidBehaviour
 					}
 					else
 					{
-
 						FluidActionResult result = FluidUtil.tryFillContainer(stack, handler, Fluid.BUCKET_VOLUME, null, false);
 						if(result.isSuccess())
 						{
@@ -94,7 +93,6 @@ public class FluidPushItemHandler implements IFluidBehaviour
 				}
 			}
 		}
-
 		return false;
 	}
 }

@@ -43,5 +43,7 @@ public class ModConfig
 
 		@Config.RangeInt(min = 1)
 		public static int glassBottleSize = 100;
+
+		public static boolean enableFluidRender = true;
 	}
 }
